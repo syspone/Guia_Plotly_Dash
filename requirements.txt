@@ -1,0 +1,17 @@
+# Execução
+pandas>=3.0
+plotly>=6.0
+dash>=3.0
+kaleido>=1.0
+python-dotenv>=1.0
+
+# Notebooks
+jupyterlab>=4.0
+ipykernel>=6.0
+nbformat>=5.10
+
+# Testes
+pytest>=8.0
+
+# Instala o próprio projeto (src/dashvendas) em modo editável
+-e .

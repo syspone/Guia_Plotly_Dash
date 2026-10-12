@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "guia-plotly-dash"
+version = "1.0.0"
+description = "Guia de Plotly e Dash, com um dashboard de vendas como projeto de exemplo"
+authors = [{ name = "Cristian Matias de Souza" }]
+requires-python = ">=3.12"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
